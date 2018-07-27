@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013325990E2C02350E3BE74523B5A87D /* BFOAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56CAC6F0B89D8FB1907F3EA49FDD510 /* BFOAuth.framework */; };
+		013551231FD5CC5A876DD695F90B32D0 /* CloudSightQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D744109074CD1C6D38795D27360024D /* CloudSightQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		049F20BECE773A5F04F542F5C4C89C45 /* RequestUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3113F69159796CDF2CA63C3CDE8B46D /* RequestUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07CF04B234080E90E7E1816525D45283 /* CloudSightImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AE749A06A061ED7BDCCB3417494B3E13 /* CloudSightImageResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D6B8566F557F19E3DA9DCDA12272DE3 /* CloudSightImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DA963760BC3F82C8CD7AC957020FBC21 /* CloudSightImageRequest.m */; };
+		1477B6E4618CD7274F751B05DF17B60E /* CloudSight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB5E5B0F643108B4D49F1D535684530 /* CloudSight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		241F8098410CCE1B57FF93C12544FF58 /* BFOAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F0DCAE56E6E2D80B1E316165AF0122 /* BFOAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C6E1853B1F52A2B431460CF7391A3C /* Pods-BestDeal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D6BE2161F8F1921FF7F840D9394DA9 /* Pods-BestDeal-dummy.m */; };
+		3A709360D23D95A7AA93C6C05BD1F234 /* CloudSightConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 409D57052C71E53347504532178C7AE2 /* CloudSightConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E0BD30A81860D2B58BB9E268E76850B /* CloudSightUploadProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F262BC9D10EC40B8BDECADA3E7F4D4D /* CloudSightUploadProgressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E19D3CE2E66A4CADF38CC24578BCE86 /* CloudSightImageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 86669F3AB01D65DD423672F68F712F8C /* CloudSightImageRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		554A7A8FA67A2E33562B42ACECF8CE5A /* CloudSight.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE5182CC500CD95CC6E3A6C9879EE5C /* CloudSight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55E4FC2C7F8FAB45F5C79A46B5EFA961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D567BFEA0700693E538972BE835EC79A /* Foundation.framework */; };
+		5AE2A2A860056EB35512FFDAAA44EFFB /* RequestUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F65A58C59B8CEFBABDE0FD8FEF532 /* RequestUtils-dummy.m */; };
+		5F6FAB9859222565FB3743321F8C38C6 /* BFOAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429C180A582D67B4E79C4C5BDDA3E47 /* BFOAuth-dummy.m */; };
+		65D8B37BA82443C55166A5B856948447 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25BEDA4A10D807F8B95D7DCDF19DED6 /* CoreGraphics.framework */; };
+		69F3FA9642FFB2F9518C5BB20EEFA2E6 /* CloudSightQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B72A6EBA71A15BC88E893B7BCCCA671 /* CloudSightQuery.m */; };
+		7DAC1C9149CFE5297AC761609508FD70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D567BFEA0700693E538972BE835EC79A /* Foundation.framework */; };
+		7E714A414722DA0B9F96B3760AC6D26B /* BFOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = E545907E997968A29ACD2C421930B0F5 /* BFOAuth.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		86E77BE72222A459344736B29ADE5434 /* CloudSightQueryDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 347369E9B5944D45E8CB7A22B4E14672 /* CloudSightQueryDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925E47830C856D3ACB46C906E5172B73 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A756491A68DF8DC759696D33764E6B /* CoreLocation.framework */; };
+		A687D66B018A60CBE5E783930582D367 /* CloudSightImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E60E5EC51CD0BDD591E0EB1F6A66E /* CloudSightImageResponse.m */; };
+		B0F747440CB3DFD4A948C8106B007EBB /* CloudSightDelete.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1418B9F9009610251ED7467F1B3333 /* CloudSightDelete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C588B9EAE3A6190F7D5B03CB2EE9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D567BFEA0700693E538972BE835EC79A /* Foundation.framework */; };
+		CDA2BDD6F1D088B7B7C181D5A05DADE2 /* CloudSightImageRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 602673E50E78DAF070215BBB9D8A70C9 /* CloudSightImageRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0106D42B08A276ED177A71F46DEC936 /* RequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C8271FE272B58CF10E9D6A64336FD /* RequestUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DB16262F320E1D2CB3DD6296A171C0E9 /* CloudSightConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 039A56DF424158471019680933BDE94F /* CloudSightConnection.m */; };
+		F040F96CFE1932713C780DF0B4E86FAB /* BFOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C1AF5D334AEA3D008CE812D0F57918 /* BFOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3C4667704874746CACD4A0B95970866 /* CloudSightDelete.m in Sources */ = {isa = PBXBuildFile; fileRef = 0756CD45AC5B3B8DE836110E61401B3D /* CloudSightDelete.m */; };
+		F498B6032EE34A982C0A06F8F42444FE /* RequestUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BB99F2B49D3BEF6ADC996D8D8D7925AD /* RequestUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6315A25AB27613F868B76BA0F9A713D /* RequestUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8963ECA9E509A39114F3A5A4B50D954C /* RequestUtils.framework */; };
+		FA717786F6ED636A9873DC037D16A97C /* Pods-BestDeal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCC5D3D829344D595EE30364EB9ACF4 /* Pods-BestDeal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC6BAC0C402FC2A79016D2C0FBCF6A20 /* CloudSight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D06DC20335CD69511817F6AB7F7521BA /* CloudSight-dummy.m */; };
+		FE46BD82FD4E8A12D3CA8C43DD45D358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D567BFEA0700693E538972BE835EC79A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D9F1303B832794E42A9C5D23B30F648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B0ACB29E8CF9557AEBBC04BB94A79B3;
+			remoteInfo = BFOAuth;
+		};
+		79B8243A1B4EE4D63933F45452E98F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80839E990F4BBA6D77FC9B30906E897A;
+			remoteInfo = CloudSight;
+		};
+		B0032A0CFFA8F456C9597A64D6E22EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45722565F4D0E0BD017CCD6A5CA1189B;
+			remoteInfo = RequestUtils;
+		};
+		CDE48F5B503201C95D1F78FE6C1463CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B0ACB29E8CF9557AEBBC04BB94A79B3;
+			remoteInfo = BFOAuth;
+		};
+		F6A4B579168938337FCA6951D35D5C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45722565F4D0E0BD017CCD6A5CA1189B;
+			remoteInfo = RequestUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A756491A68DF8DC759696D33764E6B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		039A56DF424158471019680933BDE94F /* CloudSightConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightConnection.m; path = CloudSight/CloudSightConnection.m; sourceTree = "<group>"; };
+		0756CD45AC5B3B8DE836110E61401B3D /* CloudSightDelete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightDelete.m; path = CloudSight/CloudSightDelete.m; sourceTree = "<group>"; };
+		0A4E60E5EC51CD0BDD591E0EB1F6A66E /* CloudSightImageResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightImageResponse.m; path = CloudSight/CloudSightImageResponse.m; sourceTree = "<group>"; };
+		0FBEA3C3E95B8A34AEF1FED0BF996B1C /* BFOAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BFOAuth.framework; path = BFOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DD485644A14A899123FD85026A5FB0 /* Pods-BestDeal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BestDeal-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D744109074CD1C6D38795D27360024D /* CloudSightQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightQuery.h; path = CloudSight/CloudSightQuery.h; sourceTree = "<group>"; };
+		3429C180A582D67B4E79C4C5BDDA3E47 /* BFOAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFOAuth-dummy.m"; sourceTree = "<group>"; };
+		347369E9B5944D45E8CB7A22B4E14672 /* CloudSightQueryDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightQueryDelegate.h; path = CloudSight/CloudSightQueryDelegate.h; sourceTree = "<group>"; };
+		3B588AEA439A95418E632F7BA8A09654 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409D57052C71E53347504532178C7AE2 /* CloudSightConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightConnection.h; path = CloudSight/CloudSightConnection.h; sourceTree = "<group>"; };
+		423D26BFECFC6B55A2159767AAA64C91 /* Pods_BestDeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BestDeal.framework; path = "Pods-BestDeal.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B82E2001987C5ADD05466E02D7CC30 /* Pods-BestDeal-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BestDeal-resources.sh"; sourceTree = "<group>"; };
+		48AD56B2DAAC3EA0EF870FCC2AA63365 /* BFOAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFOAuth.xcconfig; sourceTree = "<group>"; };
+		4D2A9D4059B77415222327FF2E896D81 /* CloudSight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CloudSight.framework; path = CloudSight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		578C8271FE272B58CF10E9D6A64336FD /* RequestUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RequestUtils.m; path = RequestUtils/RequestUtils.m; sourceTree = "<group>"; };
+		5F262BC9D10EC40B8BDECADA3E7F4D4D /* CloudSightUploadProgressDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightUploadProgressDelegate.h; path = CloudSight/CloudSightUploadProgressDelegate.h; sourceTree = "<group>"; };
+		602673E50E78DAF070215BBB9D8A70C9 /* CloudSightImageRequestDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightImageRequestDelegate.h; path = CloudSight/CloudSightImageRequestDelegate.h; sourceTree = "<group>"; };
+		67C1AF5D334AEA3D008CE812D0F57918 /* BFOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFOAuth.h; path = BFOAuth/BFOAuth.h; sourceTree = "<group>"; };
+		6DC77DE99C0A946EAE39C552784DEE13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE5182CC500CD95CC6E3A6C9879EE5C /* CloudSight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSight.h; path = CloudSight/CloudSight.h; sourceTree = "<group>"; };
+		86669F3AB01D65DD423672F68F712F8C /* CloudSightImageRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightImageRequest.h; path = CloudSight/CloudSightImageRequest.h; sourceTree = "<group>"; };
+		8963ECA9E509A39114F3A5A4B50D954C /* RequestUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RequestUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABD934F8C4A24BCEA13EAE0DCA96D51 /* Pods-BestDeal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BestDeal.modulemap"; sourceTree = "<group>"; };
+		8B72A6EBA71A15BC88E893B7BCCCA671 /* CloudSightQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightQuery.m; path = CloudSight/CloudSightQuery.m; sourceTree = "<group>"; };
+		8E90FC9EC6457A2ECF61B139EA4BCCE6 /* CloudSight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CloudSight.modulemap; sourceTree = "<group>"; };
+		8F1418B9F9009610251ED7467F1B3333 /* CloudSightDelete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightDelete.h; path = CloudSight/CloudSightDelete.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5ACA5B45671897B69A50A9128CDB8A /* RequestUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RequestUtils.framework; path = RequestUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5F65A58C59B8CEFBABDE0FD8FEF532 /* RequestUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RequestUtils-dummy.m"; sourceTree = "<group>"; };
+		9F369BC7B9FF56834D1F6934F02CEE13 /* BFOAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFOAuth-prefix.pch"; sourceTree = "<group>"; };
+		A56CAC6F0B89D8FB1907F3EA49FDD510 /* BFOAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BFOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81F11E474EA02FC1A44199255EBED52 /* RequestUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RequestUtils-prefix.pch"; sourceTree = "<group>"; };
+		ACCC5D3D829344D595EE30364EB9ACF4 /* Pods-BestDeal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BestDeal-umbrella.h"; sourceTree = "<group>"; };
+		AE749A06A061ED7BDCCB3417494B3E13 /* CloudSightImageResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudSightImageResponse.h; path = CloudSight/CloudSightImageResponse.h; sourceTree = "<group>"; };
+		B25BEDA4A10D807F8B95D7DCDF19DED6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B384254235E2664696E2CAB0A29AE8C3 /* RequestUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RequestUtils.modulemap; sourceTree = "<group>"; };
+		B8D6BE2161F8F1921FF7F840D9394DA9 /* Pods-BestDeal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BestDeal-dummy.m"; sourceTree = "<group>"; };
+		BB99F2B49D3BEF6ADC996D8D8D7925AD /* RequestUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestUtils.h; path = RequestUtils/RequestUtils.h; sourceTree = "<group>"; };
+		C2459E3989E3DED8BCDFAC0FD358F64F /* BFOAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BFOAuth.modulemap; sourceTree = "<group>"; };
+		C71B6275FB3C7243C7B2F2AB029C2B68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06DC20335CD69511817F6AB7F7521BA /* CloudSight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CloudSight-dummy.m"; sourceTree = "<group>"; };
+		D09D9013FF535BE02C8D3785DDF5DDCB /* CloudSight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CloudSight-prefix.pch"; sourceTree = "<group>"; };
+		D3113F69159796CDF2CA63C3CDE8B46D /* RequestUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RequestUtils-umbrella.h"; sourceTree = "<group>"; };
+		D4F0DCAE56E6E2D80B1E316165AF0122 /* BFOAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFOAuth-umbrella.h"; sourceTree = "<group>"; };
+		D567BFEA0700693E538972BE835EC79A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D617FAA3BBBE5720CBE5FA43605633D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA963760BC3F82C8CD7AC957020FBC21 /* CloudSightImageRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CloudSightImageRequest.m; path = CloudSight/CloudSightImageRequest.m; sourceTree = "<group>"; };
+		DAB43686CDCF6A2DE2EF1E79545833D0 /* Pods-BestDeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BestDeal.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB5E5B0F643108B4D49F1D535684530 /* CloudSight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CloudSight-umbrella.h"; sourceTree = "<group>"; };
+		E3378E4C3E3218447BF45DF475CF962B /* Pods-BestDeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BestDeal.release.xcconfig"; sourceTree = "<group>"; };
+		E545907E997968A29ACD2C421930B0F5 /* BFOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFOAuth.m; path = BFOAuth/BFOAuth.m; sourceTree = "<group>"; };
+		EA27C6827E5E1088DB79CB7E9A9275BE /* Pods-BestDeal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BestDeal-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE6DF327F457068EED8EE71830CBF46D /* Pods-BestDeal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BestDeal-frameworks.sh"; sourceTree = "<group>"; };
+		F0D0A4F4CE2B9DAF712A0EBDB026092D /* CloudSight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CloudSight.xcconfig; sourceTree = "<group>"; };
+		F352466F239BB520E683BAFF81FE94DC /* RequestUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RequestUtils.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B0C6FE1663285663FE294E660784455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C588B9EAE3A6190F7D5B03CB2EE9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0B064250AE0DA7759325B06B6F2328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013325990E2C02350E3BE74523B5A87D /* BFOAuth.framework in Frameworks */,
+				65D8B37BA82443C55166A5B856948447 /* CoreGraphics.framework in Frameworks */,
+				925E47830C856D3ACB46C906E5172B73 /* CoreLocation.framework in Frameworks */,
+				55E4FC2C7F8FAB45F5C79A46B5EFA961 /* Foundation.framework in Frameworks */,
+				F6315A25AB27613F868B76BA0F9A713D /* RequestUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6FF2DA3531BF3A4CC970B93EE67979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAC1C9149CFE5297AC761609508FD70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1FFBE27BB8BEE08000ECAF0DB98C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE46BD82FD4E8A12D3CA8C43DD45D358 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ECD45D26924F7DAF2F15E830CE928C /* RequestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				BB99F2B49D3BEF6ADC996D8D8D7925AD /* RequestUtils.h */,
+				578C8271FE272B58CF10E9D6A64336FD /* RequestUtils.m */,
+				C16F66C0F5AA3BA6F9E0C7DE5E647F62 /* Support Files */,
+			);
+			name = RequestUtils;
+			path = RequestUtils;
+			sourceTree = "<group>";
+		};
+		0D08A42C33BF86936CAFB77B1383EAB2 /* Pods-BestDeal */ = {
+			isa = PBXGroup;
+			children = (
+				3B588AEA439A95418E632F7BA8A09654 /* Info.plist */,
+				8ABD934F8C4A24BCEA13EAE0DCA96D51 /* Pods-BestDeal.modulemap */,
+				EA27C6827E5E1088DB79CB7E9A9275BE /* Pods-BestDeal-acknowledgements.markdown */,
+				10DD485644A14A899123FD85026A5FB0 /* Pods-BestDeal-acknowledgements.plist */,
+				B8D6BE2161F8F1921FF7F840D9394DA9 /* Pods-BestDeal-dummy.m */,
+				EE6DF327F457068EED8EE71830CBF46D /* Pods-BestDeal-frameworks.sh */,
+				46B82E2001987C5ADD05466E02D7CC30 /* Pods-BestDeal-resources.sh */,
+				ACCC5D3D829344D595EE30364EB9ACF4 /* Pods-BestDeal-umbrella.h */,
+				DAB43686CDCF6A2DE2EF1E79545833D0 /* Pods-BestDeal.debug.xcconfig */,
+				E3378E4C3E3218447BF45DF475CF962B /* Pods-BestDeal.release.xcconfig */,
+			);
+			name = "Pods-BestDeal";
+			path = "Target Support Files/Pods-BestDeal";
+			sourceTree = "<group>";
+		};
+		118139F5F281A334B62613CA8D386C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FBEA3C3E95B8A34AEF1FED0BF996B1C /* BFOAuth.framework */,
+				4D2A9D4059B77415222327FF2E896D81 /* CloudSight.framework */,
+				423D26BFECFC6B55A2159767AAA64C91 /* Pods_BestDeal.framework */,
+				9E5ACA5B45671897B69A50A9128CDB8A /* RequestUtils.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150099CE1F4B6353B1811DAA0F9652DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E90FC9EC6457A2ECF61B139EA4BCCE6 /* CloudSight.modulemap */,
+				F0D0A4F4CE2B9DAF712A0EBDB026092D /* CloudSight.xcconfig */,
+				D06DC20335CD69511817F6AB7F7521BA /* CloudSight-dummy.m */,
+				D09D9013FF535BE02C8D3785DDF5DDCB /* CloudSight-prefix.pch */,
+				DFB5E5B0F643108B4D49F1D535684530 /* CloudSight-umbrella.h */,
+				D617FAA3BBBE5720CBE5FA43605633D1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CloudSight";
+			sourceTree = "<group>";
+		};
+		3650DABFE371CBD8865974ABCD2BC247 /* BFOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				67C1AF5D334AEA3D008CE812D0F57918 /* BFOAuth.h */,
+				E545907E997968A29ACD2C421930B0F5 /* BFOAuth.m */,
+				F4F8182AEB11533EF7AD9BA0D62CB259 /* Support Files */,
+			);
+			name = BFOAuth;
+			path = BFOAuth;
+			sourceTree = "<group>";
+		};
+		7AF8C9130A1359B7BA38B2A435985AE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3650DABFE371CBD8865974ABCD2BC247 /* BFOAuth */,
+				C7473E53C8357F1917CF5A8F830C9C7A /* CloudSight */,
+				04ECD45D26924F7DAF2F15E830CE928C /* RequestUtils */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F34B6540A7DA02B0D14FF975ACE5B489 /* Frameworks */,
+				7AF8C9130A1359B7BA38B2A435985AE5 /* Pods */,
+				118139F5F281A334B62613CA8D386C7B /* Products */,
+				813CD7D44033AEEB866593DD5B43773E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		813CD7D44033AEEB866593DD5B43773E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D08A42C33BF86936CAFB77B1383EAB2 /* Pods-BestDeal */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C16F66C0F5AA3BA6F9E0C7DE5E647F62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71B6275FB3C7243C7B2F2AB029C2B68 /* Info.plist */,
+				B384254235E2664696E2CAB0A29AE8C3 /* RequestUtils.modulemap */,
+				F352466F239BB520E683BAFF81FE94DC /* RequestUtils.xcconfig */,
+				9E5F65A58C59B8CEFBABDE0FD8FEF532 /* RequestUtils-dummy.m */,
+				A81F11E474EA02FC1A44199255EBED52 /* RequestUtils-prefix.pch */,
+				D3113F69159796CDF2CA63C3CDE8B46D /* RequestUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RequestUtils";
+			sourceTree = "<group>";
+		};
+		C7473E53C8357F1917CF5A8F830C9C7A /* CloudSight */ = {
+			isa = PBXGroup;
+			children = (
+				6FE5182CC500CD95CC6E3A6C9879EE5C /* CloudSight.h */,
+				409D57052C71E53347504532178C7AE2 /* CloudSightConnection.h */,
+				039A56DF424158471019680933BDE94F /* CloudSightConnection.m */,
+				8F1418B9F9009610251ED7467F1B3333 /* CloudSightDelete.h */,
+				0756CD45AC5B3B8DE836110E61401B3D /* CloudSightDelete.m */,
+				86669F3AB01D65DD423672F68F712F8C /* CloudSightImageRequest.h */,
+				DA963760BC3F82C8CD7AC957020FBC21 /* CloudSightImageRequest.m */,
+				602673E50E78DAF070215BBB9D8A70C9 /* CloudSightImageRequestDelegate.h */,
+				AE749A06A061ED7BDCCB3417494B3E13 /* CloudSightImageResponse.h */,
+				0A4E60E5EC51CD0BDD591E0EB1F6A66E /* CloudSightImageResponse.m */,
+				1D744109074CD1C6D38795D27360024D /* CloudSightQuery.h */,
+				8B72A6EBA71A15BC88E893B7BCCCA671 /* CloudSightQuery.m */,
+				347369E9B5944D45E8CB7A22B4E14672 /* CloudSightQueryDelegate.h */,
+				5F262BC9D10EC40B8BDECADA3E7F4D4D /* CloudSightUploadProgressDelegate.h */,
+				150099CE1F4B6353B1811DAA0F9652DF /* Support Files */,
+			);
+			name = CloudSight;
+			path = CloudSight;
+			sourceTree = "<group>";
+		};
+		F34B6540A7DA02B0D14FF975ACE5B489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56CAC6F0B89D8FB1907F3EA49FDD510 /* BFOAuth.framework */,
+				8963ECA9E509A39114F3A5A4B50D954C /* RequestUtils.framework */,
+				FE48A025F092AA42D0E1F09C8CAB64FF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F8182AEB11533EF7AD9BA0D62CB259 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2459E3989E3DED8BCDFAC0FD358F64F /* BFOAuth.modulemap */,
+				48AD56B2DAAC3EA0EF870FCC2AA63365 /* BFOAuth.xcconfig */,
+				3429C180A582D67B4E79C4C5BDDA3E47 /* BFOAuth-dummy.m */,
+				9F369BC7B9FF56834D1F6934F02CEE13 /* BFOAuth-prefix.pch */,
+				D4F0DCAE56E6E2D80B1E316165AF0122 /* BFOAuth-umbrella.h */,
+				6DC77DE99C0A946EAE39C552784DEE13 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BFOAuth";
+			sourceTree = "<group>";
+		};
+		FE48A025F092AA42D0E1F09C8CAB64FF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B25BEDA4A10D807F8B95D7DCDF19DED6 /* CoreGraphics.framework */,
+				01A756491A68DF8DC759696D33764E6B /* CoreLocation.framework */,
+				D567BFEA0700693E538972BE835EC79A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58458B3D585F2C8D2FDB7CC27D4EEB5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA717786F6ED636A9873DC037D16A97C /* Pods-BestDeal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEC3C69BEB47F1160DE2E6832D68630 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F20BECE773A5F04F542F5C4C89C45 /* RequestUtils-umbrella.h in Headers */,
+				F498B6032EE34A982C0A06F8F42444FE /* RequestUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4477B67A0BDFB08AEEBE72336D185D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1477B6E4618CD7274F751B05DF17B60E /* CloudSight-umbrella.h in Headers */,
+				554A7A8FA67A2E33562B42ACECF8CE5A /* CloudSight.h in Headers */,
+				3A709360D23D95A7AA93C6C05BD1F234 /* CloudSightConnection.h in Headers */,
+				B0F747440CB3DFD4A948C8106B007EBB /* CloudSightDelete.h in Headers */,
+				3E19D3CE2E66A4CADF38CC24578BCE86 /* CloudSightImageRequest.h in Headers */,
+				CDA2BDD6F1D088B7B7C181D5A05DADE2 /* CloudSightImageRequestDelegate.h in Headers */,
+				07CF04B234080E90E7E1816525D45283 /* CloudSightImageResponse.h in Headers */,
+				013551231FD5CC5A876DD695F90B32D0 /* CloudSightQuery.h in Headers */,
+				86E77BE72222A459344736B29ADE5434 /* CloudSightQueryDelegate.h in Headers */,
+				3E0BD30A81860D2B58BB9E268E76850B /* CloudSightUploadProgressDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8262340CB475E9F33282C10F918434 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241F8098410CCE1B57FF93C12544FF58 /* BFOAuth-umbrella.h in Headers */,
+				F040F96CFE1932713C780DF0B4E86FAB /* BFOAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45722565F4D0E0BD017CCD6A5CA1189B /* RequestUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387BAEBA9AB04E3EC5FC4ABE160F9708 /* Build configuration list for PBXNativeTarget "RequestUtils" */;
+			buildPhases = (
+				0C706D5987489B942F1E014A8E00D2C8 /* Sources */,
+				0B0C6FE1663285663FE294E660784455 /* Frameworks */,
+				8AEC3C69BEB47F1160DE2E6832D68630 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RequestUtils;
+			productName = RequestUtils;
+			productReference = 9E5ACA5B45671897B69A50A9128CDB8A /* RequestUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B0ACB29E8CF9557AEBBC04BB94A79B3 /* BFOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1774F9380DACAC52B3825A2968BE2822 /* Build configuration list for PBXNativeTarget "BFOAuth" */;
+			buildPhases = (
+				D1AA3A393A8B628BEC5CC7A394D96F2E /* Sources */,
+				4A6FF2DA3531BF3A4CC970B93EE67979 /* Frameworks */,
+				AB8262340CB475E9F33282C10F918434 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFOAuth;
+			productName = BFOAuth;
+			productReference = 0FBEA3C3E95B8A34AEF1FED0BF996B1C /* BFOAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80839E990F4BBA6D77FC9B30906E897A /* CloudSight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9403CFEEE89C60D6DFF022B9D9D1238E /* Build configuration list for PBXNativeTarget "CloudSight" */;
+			buildPhases = (
+				ED85B2AB32F62B2F0BCC01E90F3D5D0D /* Sources */,
+				3E0B064250AE0DA7759325B06B6F2328 /* Frameworks */,
+				9D4477B67A0BDFB08AEEBE72336D185D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A83960941940808CE2896832DF5390E /* PBXTargetDependency */,
+				08CCFEBC239B541256EC22E20E01CD2B /* PBXTargetDependency */,
+			);
+			name = CloudSight;
+			productName = CloudSight;
+			productReference = 4D2A9D4059B77415222327FF2E896D81 /* CloudSight.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5595EB1A8FD34378B896DC4F1C8A4CB /* Pods-BestDeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B869CC0422F7350ADCC5D012116E4653 /* Build configuration list for PBXNativeTarget "Pods-BestDeal" */;
+			buildPhases = (
+				FCA869B2DA782DC35557C883F00F0EB4 /* Sources */,
+				CF1FFBE27BB8BEE08000ECAF0DB98C12 /* Frameworks */,
+				58458B3D585F2C8D2FDB7CC27D4EEB5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33201F025CCF5646CE3E7C78C364DE07 /* PBXTargetDependency */,
+				3D74B47C08DE699A351B0789B08F2E4F /* PBXTargetDependency */,
+				7C3BA0391784B01C3418CA55C0DA46A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BestDeal";
+			productName = "Pods-BestDeal";
+			productReference = 423D26BFECFC6B55A2159767AAA64C91 /* Pods_BestDeal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 118139F5F281A334B62613CA8D386C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B0ACB29E8CF9557AEBBC04BB94A79B3 /* BFOAuth */,
+				80839E990F4BBA6D77FC9B30906E897A /* CloudSight */,
+				B5595EB1A8FD34378B896DC4F1C8A4CB /* Pods-BestDeal */,
+				45722565F4D0E0BD017CCD6A5CA1189B /* RequestUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C706D5987489B942F1E014A8E00D2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE2A2A860056EB35512FFDAAA44EFFB /* RequestUtils-dummy.m in Sources */,
+				D0106D42B08A276ED177A71F46DEC936 /* RequestUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AA3A393A8B628BEC5CC7A394D96F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6FAB9859222565FB3743321F8C38C6 /* BFOAuth-dummy.m in Sources */,
+				7E714A414722DA0B9F96B3760AC6D26B /* BFOAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED85B2AB32F62B2F0BCC01E90F3D5D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6BAC0C402FC2A79016D2C0FBCF6A20 /* CloudSight-dummy.m in Sources */,
+				DB16262F320E1D2CB3DD6296A171C0E9 /* CloudSightConnection.m in Sources */,
+				F3C4667704874746CACD4A0B95970866 /* CloudSightDelete.m in Sources */,
+				0D6B8566F557F19E3DA9DCDA12272DE3 /* CloudSightImageRequest.m in Sources */,
+				A687D66B018A60CBE5E783930582D367 /* CloudSightImageResponse.m in Sources */,
+				69F3FA9642FFB2F9518C5BB20EEFA2E6 /* CloudSightQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA869B2DA782DC35557C883F00F0EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C6E1853B1F52A2B431460CF7391A3C /* Pods-BestDeal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08CCFEBC239B541256EC22E20E01CD2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RequestUtils;
+			target = 45722565F4D0E0BD017CCD6A5CA1189B /* RequestUtils */;
+			targetProxy = F6A4B579168938337FCA6951D35D5C0E /* PBXContainerItemProxy */;
+		};
+		33201F025CCF5646CE3E7C78C364DE07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BFOAuth;
+			target = 7B0ACB29E8CF9557AEBBC04BB94A79B3 /* BFOAuth */;
+			targetProxy = CDE48F5B503201C95D1F78FE6C1463CE /* PBXContainerItemProxy */;
+		};
+		3D74B47C08DE699A351B0789B08F2E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CloudSight;
+			target = 80839E990F4BBA6D77FC9B30906E897A /* CloudSight */;
+			targetProxy = 79B8243A1B4EE4D63933F45452E98F0D /* PBXContainerItemProxy */;
+		};
+		4A83960941940808CE2896832DF5390E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BFOAuth;
+			target = 7B0ACB29E8CF9557AEBBC04BB94A79B3 /* BFOAuth */;
+			targetProxy = 6D9F1303B832794E42A9C5D23B30F648 /* PBXContainerItemProxy */;
+		};
+		7C3BA0391784B01C3418CA55C0DA46A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RequestUtils;
+			target = 45722565F4D0E0BD017CCD6A5CA1189B /* RequestUtils */;
+			targetProxy = B0032A0CFFA8F456C9597A64D6E22EB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F4A165C8D0F706C63E636B48AE696E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48AD56B2DAAC3EA0EF870FCC2AA63365 /* BFOAuth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BFOAuth/BFOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BFOAuth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BFOAuth/BFOAuth.modulemap";
+				PRODUCT_MODULE_NAME = BFOAuth;
+				PRODUCT_NAME = BFOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F565DC6D9F23889FC79460324ECB017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D0A4F4CE2B9DAF712A0EBDB026092D /* CloudSight.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CloudSight/CloudSight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CloudSight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CloudSight/CloudSight.modulemap";
+				PRODUCT_MODULE_NAME = CloudSight;
+				PRODUCT_NAME = CloudSight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AD567E074341CD681DBC688D7F9D94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F352466F239BB520E683BAFF81FE94DC /* RequestUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RequestUtils/RequestUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RequestUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RequestUtils/RequestUtils.modulemap";
+				PRODUCT_MODULE_NAME = RequestUtils;
+				PRODUCT_NAME = RequestUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DB42128C243D75BD31C955EB9F06B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F352466F239BB520E683BAFF81FE94DC /* RequestUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RequestUtils/RequestUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RequestUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RequestUtils/RequestUtils.modulemap";
+				PRODUCT_MODULE_NAME = RequestUtils;
+				PRODUCT_NAME = RequestUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6ACAD71ADACD9D0AD6F538CF3ECA6A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D0A4F4CE2B9DAF712A0EBDB026092D /* CloudSight.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CloudSight/CloudSight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CloudSight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CloudSight/CloudSight.modulemap";
+				PRODUCT_MODULE_NAME = CloudSight;
+				PRODUCT_NAME = CloudSight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A4C6F146BEB974A0CBD55F0A0A6862D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48AD56B2DAAC3EA0EF870FCC2AA63365 /* BFOAuth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BFOAuth/BFOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BFOAuth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BFOAuth/BFOAuth.modulemap";
+				PRODUCT_MODULE_NAME = BFOAuth;
+				PRODUCT_NAME = BFOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C95B3FEDB59BC142EC545F7AFC98BBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3378E4C3E3218447BF45DF475CF962B /* Pods-BestDeal.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BestDeal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BestDeal/Pods-BestDeal.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD32670481794FCFFFFF9C3A86909D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB43686CDCF6A2DE2EF1E79545833D0 /* Pods-BestDeal.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BestDeal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BestDeal/Pods-BestDeal.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1774F9380DACAC52B3825A2968BE2822 /* Build configuration list for PBXNativeTarget "BFOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C6F146BEB974A0CBD55F0A0A6862D8 /* Debug */,
+				1F4A165C8D0F706C63E636B48AE696E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387BAEBA9AB04E3EC5FC4ABE160F9708 /* Build configuration list for PBXNativeTarget "RequestUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB42128C243D75BD31C955EB9F06B76 /* Debug */,
+				4AD567E074341CD681DBC688D7F9D94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9403CFEEE89C60D6DFF022B9D9D1238E /* Build configuration list for PBXNativeTarget "CloudSight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACAD71ADACD9D0AD6F538CF3ECA6A6C /* Debug */,
+				1F565DC6D9F23889FC79460324ECB017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B869CC0422F7350ADCC5D012116E4653 /* Build configuration list for PBXNativeTarget "Pods-BestDeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD32670481794FCFFFFF9C3A86909D80 /* Debug */,
+				C95B3FEDB59BC142EC545F7AFC98BBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

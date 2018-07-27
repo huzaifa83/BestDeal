@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        WalmartController.fetchProduct(productName: "iphone") { (item) in
+//            item?.first?.name
+            print("Url is working")
+        }
+        
+        EbayController.fetchProduct(productName: "xbox") { (ebayItem) in
+            if ebayItem != nil {
+                print("We are fetching data home boy")
+            }
+        }
         return true
     }
 
