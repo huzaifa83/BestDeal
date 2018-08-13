@@ -8,32 +8,25 @@
 
 import Foundation
 
-
-// To parse the JSON, add this file to your project and do:
-//
-//   let welcome = try? JSONDecoder().decode(Welcome.self, from: jsonData)
-
-import Foundation
-
 struct Product: Codable {
-    let items: [Item]
+    let items: [WalmartItem]
 }
 
-struct Item: Codable {
+struct WalmartItem: Codable {
     let name: String?
     let msrp, salePrice: Double?
     let upc: String?
     let shortDescription: String?
-    let thumbnailImage, mediumImage, largeImage: String?
+    let mediumImage: String?
     let customerRating: String?
     let numReviews: Int?
     let customerRatingImage: String?
-    let addToCartURL, affiliateAddToCartURL: String?
+    let companyId: String? =  "Walmart"
+    let addToCartURL: String?
     
     enum CodingKeys: String, CodingKey {
-        case name, msrp, salePrice, upc, shortDescription, thumbnailImage, mediumImage, largeImage
+        case name, msrp, salePrice, upc, shortDescription, mediumImage
         case customerRating, numReviews, customerRatingImage
         case addToCartURL = "addToCartUrl"
-        case affiliateAddToCartURL = "affiliateAddToCartUrl"
     }
 }

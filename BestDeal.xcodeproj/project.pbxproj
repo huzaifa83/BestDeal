@@ -7,32 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06666C02210BBB7700D941A4 /* ExtensionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06666C01210BBB7700D941A4 /* ExtensionHelper.swift */; };
+		06666C06210C39D100D941A4 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06666C05210C39D100D941A4 /* ResultsTableViewCell.swift */; };
+		06666C08210D106800D941A4 /* GeneralProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06666C07210D106800D941A4 /* GeneralProduct.swift */; };
+		06666C0A210F8B1300D941A4 /* ProductFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06666C09210F8B1300D941A4 /* ProductFacade.swift */; };
 		0688FFCF210B6FEE0032878D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688FFCE210B6FEE0032878D /* Constants.swift */; };
+		0688FFD3210B7F9C0032878D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688FFD2210B7F9C0032878D /* HomeViewController.swift */; };
+		0688FFD5210B95700032878D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688FFD4210B95700032878D /* CameraViewController.swift */; };
+		068CD0092110CBDA001CB932 /* FullResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CD0082110CBDA001CB932 /* FullResultsTableViewController.swift */; };
+		068CD00B2110D65A001CB932 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CD00A2110D65A001CB932 /* FavoriteTableViewController.swift */; };
+		068CD00D2110D70C001CB932 /* FullResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CD00C2110D70C001CB932 /* FullResultsTableViewCell.swift */; };
+		068CD00F2110D72A001CB932 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CD00E2110D72A001CB932 /* FavoriteTableViewCell.swift */; };
+		068E435E211E1E3000E51517 /* ResultsNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068E435D211E1E3000E51517 /* ResultsNavigationViewController.swift */; };
 		06A6EB402107CA300077187A /* Walmart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A6EB3F2107CA300077187A /* Walmart.swift */; };
 		06A6EB422107EDD60077187A /* WalmartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A6EB412107EDD60077187A /* WalmartController.swift */; };
 		06A6EB4421092F8C0077187A /* Ebay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A6EB4321092F8C0077187A /* Ebay.swift */; };
 		06A6EB4621093FCF0077187A /* EbayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A6EB4521093FCF0077187A /* EbayController.swift */; };
+		06DF2A5D2117C0F400464541 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DF2A5C2117C0F400464541 /* RoundedImage.swift */; };
+		06DF2A5F2118DE1800464541 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DF2A5E2118DE1800464541 /* TabViewController.swift */; };
 		06F6E12D2106605C00FF8E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F6E12C2106605C00FF8E7F /* AppDelegate.swift */; };
-		06F6E12F2106605C00FF8E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F6E12E2106605C00FF8E7F /* ViewController.swift */; };
 		06F6E1322106605C00FF8E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F6E1302106605C00FF8E7F /* Main.storyboard */; };
 		06F6E1342106605D00FF8E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F6E1332106605D00FF8E7F /* Assets.xcassets */; };
 		06F6E1372106605D00FF8E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F6E1352106605D00FF8E7F /* LaunchScreen.storyboard */; };
+		06FFD55B2114CFEA009CE02C /* CameraResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FFD55A2114CFEA009CE02C /* CameraResultsViewController.swift */; };
 		AA4A0E89A84234DEAFD77516 /* Pods_BestDeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746AF3892E12B307C4F95E38 /* Pods_BestDeal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06666C01210BBB7700D941A4 /* ExtensionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelper.swift; sourceTree = "<group>"; };
+		06666C05210C39D100D941A4 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		06666C07210D106800D941A4 /* GeneralProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralProduct.swift; sourceTree = "<group>"; };
+		06666C09210F8B1300D941A4 /* ProductFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFacade.swift; sourceTree = "<group>"; };
 		0688FFCE210B6FEE0032878D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0688FFD2210B7F9C0032878D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0688FFD4210B95700032878D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		068CD0082110CBDA001CB932 /* FullResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullResultsTableViewController.swift; sourceTree = "<group>"; };
+		068CD00A2110D65A001CB932 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		068CD00C2110D70C001CB932 /* FullResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullResultsTableViewCell.swift; sourceTree = "<group>"; };
+		068CD00E2110D72A001CB932 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		068E435D211E1E3000E51517 /* ResultsNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsNavigationViewController.swift; sourceTree = "<group>"; };
 		06A6EB3F2107CA300077187A /* Walmart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walmart.swift; sourceTree = "<group>"; };
 		06A6EB412107EDD60077187A /* WalmartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartController.swift; sourceTree = "<group>"; };
 		06A6EB4321092F8C0077187A /* Ebay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ebay.swift; sourceTree = "<group>"; };
 		06A6EB4521093FCF0077187A /* EbayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbayController.swift; sourceTree = "<group>"; };
+		06DF2A5C2117C0F400464541 /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		06DF2A5E2118DE1800464541 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		06F6E1292106605C00FF8E7F /* BestDeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestDeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F6E12C2106605C00FF8E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06F6E12E2106605C00FF8E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06F6E1312106605C00FF8E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06F6E1332106605D00FF8E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06F6E1362106605D00FF8E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06F6E1382106605D00FF8E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FFD55A2114CFEA009CE02C /* CameraResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraResultsViewController.swift; sourceTree = "<group>"; };
 		746AF3892E12B307C4F95E38 /* Pods_BestDeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestDeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30413C59ED3944EF80D9990 /* Pods-BestDeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestDeal.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestDeal/Pods-BestDeal.release.xcconfig"; sourceTree = "<group>"; };
 		A9EBB7C805224E1DA7E618B3 /* Pods-BestDeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestDeal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestDeal/Pods-BestDeal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,11 +76,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06666C00210BBB4A00D941A4 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				06666C01210BBB7700D941A4 /* ExtensionHelper.swift */,
+				06DF2A5C2117C0F400464541 /* RoundedImage.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
 		0688FFC9210A43670032878D /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				06A6EB4321092F8C0077187A /* Ebay.swift */,
 				06A6EB3F2107CA300077187A /* Walmart.swift */,
+				06666C07210D106800D941A4 /* GeneralProduct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -62,6 +98,7 @@
 		0688FFCA210A436F0032878D /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				06666C09210F8B1300D941A4 /* ProductFacade.swift */,
 				06A6EB4521093FCF0077187A /* EbayController.swift */,
 				06A6EB412107EDD60077187A /* WalmartController.swift */,
 			);
@@ -71,6 +108,12 @@
 		0688FFCB210A43780032878D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0688FFD2210B7F9C0032878D /* HomeViewController.swift */,
+				06DF2A5E2118DE1800464541 /* TabViewController.swift */,
+				0688FFD4210B95700032878D /* CameraViewController.swift */,
+				068CD0082110CBDA001CB932 /* FullResultsTableViewController.swift */,
+				068CD00A2110D65A001CB932 /* FavoriteTableViewController.swift */,
+				06FFD55A2114CFEA009CE02C /* CameraResultsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -79,7 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				06F6E1302106605C00FF8E7F /* Main.storyboard */,
+				068E435D211E1E3000E51517 /* ResultsNavigationViewController.swift */,
 				06F6E1352106605D00FF8E7F /* LaunchScreen.storyboard */,
+				06666C05210C39D100D941A4 /* ResultsTableViewCell.swift */,
+				068CD00C2110D70C001CB932 /* FullResultsTableViewCell.swift */,
+				068CD00E2110D72A001CB932 /* FavoriteTableViewCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -115,12 +162,12 @@
 		06F6E12B2106605C00FF8E7F /* BestDeal */ = {
 			isa = PBXGroup;
 			children = (
+				06666C00210BBB4A00D941A4 /* HelperFiles */,
 				0688FFCD210A43C00032878D /* Resources */,
 				0688FFCC210A43880032878D /* UI */,
 				0688FFCB210A43780032878D /* ViewController */,
 				0688FFCA210A436F0032878D /* ModelController */,
 				0688FFC9210A43670032878D /* Model */,
-				06F6E12E2106605C00FF8E7F /* ViewController.swift */,
 				0688FFCE210B6FEE0032878D /* Constants.swift */,
 			);
 			path = BestDeal;
@@ -260,11 +307,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A6EB402107CA300077187A /* Walmart.swift in Sources */,
+				068CD00D2110D70C001CB932 /* FullResultsTableViewCell.swift in Sources */,
 				06A6EB4421092F8C0077187A /* Ebay.swift in Sources */,
-				06F6E12F2106605C00FF8E7F /* ViewController.swift in Sources */,
+				06666C08210D106800D941A4 /* GeneralProduct.swift in Sources */,
+				06666C02210BBB7700D941A4 /* ExtensionHelper.swift in Sources */,
 				06A6EB422107EDD60077187A /* WalmartController.swift in Sources */,
+				068CD00F2110D72A001CB932 /* FavoriteTableViewCell.swift in Sources */,
+				068CD00B2110D65A001CB932 /* FavoriteTableViewController.swift in Sources */,
+				06DF2A5F2118DE1800464541 /* TabViewController.swift in Sources */,
+				06666C06210C39D100D941A4 /* ResultsTableViewCell.swift in Sources */,
 				0688FFCF210B6FEE0032878D /* Constants.swift in Sources */,
+				06DF2A5D2117C0F400464541 /* RoundedImage.swift in Sources */,
 				06A6EB4621093FCF0077187A /* EbayController.swift in Sources */,
+				068E435E211E1E3000E51517 /* ResultsNavigationViewController.swift in Sources */,
+				068CD0092110CBDA001CB932 /* FullResultsTableViewController.swift in Sources */,
+				0688FFD5210B95700032878D /* CameraViewController.swift in Sources */,
+				06666C0A210F8B1300D941A4 /* ProductFacade.swift in Sources */,
+				0688FFD3210B7F9C0032878D /* HomeViewController.swift in Sources */,
+				06FFD55B2114CFEA009CE02C /* CameraResultsViewController.swift in Sources */,
 				06F6E12D2106605C00FF8E7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

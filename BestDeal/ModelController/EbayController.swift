@@ -6,14 +6,15 @@
 //  Copyright © 2018 Huzaifa Gadiwala. All rights reserved.
 //
 
+import UIKit
 import Foundation
 
 
 class EbayController {
     
-    static let baseURL = URL(string: "http://svcs.ebay.com/services/search/FindingService/v1?")
+    let baseURL = URL(string: "http://svcs.ebay.com/services/search/FindingService/v1?")
     
-    static func fetchProduct(productName: String, completion: @escaping (([EbayItem]?) -> Void)) {
+    func fetchProduct(productName: String, completion: @escaping (([GeneralProduct]?) -> Void)) {
         ///URL : Step 1
         guard let url = baseURL  else {completion(nil); return}
         var components = URLComponents(url: url, resolvingAgainstBaseURL: true)
@@ -38,7 +39,6 @@ class EbayController {
         // Request
         var request = URLRequest(url: removePercentagesURL) // Have to attach the final url
         request.httpMethod = "GET"
-        
         request.httpBody = nil
         
         // URLsesssion + Resume + Decode
@@ -55,7 +55,7 @@ class EbayController {
                 let product = try jsonDecoder.decode(EbayProduct.self, from: data)
                 let topSearchResult = product.findItemsByKeywordsResponse[0].searchResult[0]
                 let items = topSearchResult.item
-                completion(items)
+                completion( items.compactMap { GeneralProduct(ebayItem: $0) } )
                 return
             } catch {
                 print("Error decoding data \(error.localizedDescription)")
@@ -68,4 +68,28 @@ class EbayController {
     
     
     
+    func fetchImage(urlAsString: String, completion: @escaping ((UIImage?)->Void)){
+        
+        guard let baseUrl = URL(string: urlAsString) else {completion(nil); return}
+        print(baseUrl.absoluteString)
+        
+        
+        // Request
+        var request = URLRequest(url: baseUrl)
+        request.httpMethod = "GET"
+        request.httpBody = nil
+        
+        
+        // URLSession + Resume + Decode
+        URLSession.shared.dataTask(with: request) { (data, _, error) in
+            if let error = error {
+                print("Error fetching dataTask \(error.localizedDescription)")
+                completion(nil)
+                return
+            }
+            guard let data = data else {completion(nil); return}
+            let image = UIImage(data: data)
+            completion(image)
+            }.resume()
+    }
 }

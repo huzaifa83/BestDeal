@@ -12,21 +12,54 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+    
+         
         
-        WalmartController.fetchProduct(productName: "iphone") { (item) in
-//            item?.first?.name
-            print("Url is working")
-        }
         
-        EbayController.fetchProduct(productName: "xbox") { (ebayItem) in
-            if ebayItem != nil {
-                print("We are fetching data home boy")
-            }
-        }
+        let temporaryDirectory = NSTemporaryDirectory()
+        let urlCache = URLCache(memoryCapacity: 25000000, diskCapacity: 50000000, diskPath: temporaryDirectory)
+        URLCache.shared = urlCache
+        
+//        ProductFacade.init().fetchProducts(productName: "superman") { (GeneralProduct) in
+//            if  GeneralProduct != nil {
+//                print("✅  ProductFacade.fetchProducts is working")
+//            }
+//       
+//            ProductFacade.init().fetchImage(generalProducts: (GeneralProduct?.first?.mediumImage!)!, completion: { (image) in
+//                print(("✅  ProductFacade().fetchImage is working"))
+//            })
+//        }
+        
+        
+        
+//        WalmartController().fetchProduct(productName: "iphone") { (item) in
+//            if item != nil{
+//               print("✅  WalmartController().fetchProducts is working")
+//            }
+//
+////            WalmartController().fetchImage(urlAsString: (item?.first?.mediumImage)!, completion: { (image) in
+////                print("✅  WalmartController().fetchImage is working")
+////            })
+//
+//        }
+
+
+        
+//
+//        EbayController().fetchProduct(productName: "xbox") { (ebayItem) in
+//            if ebayItem != nil {
+//                print("✅  EbayController().fetchProducts is working")
+//            }
+//
+//            EbayController().fetchImage(urlAsString: (ebayItem?.first?.mediumImage)!, completion: { (image) in
+//                print("✅  EbayController().fetchImage is working")
+//            })
+//
+//        }
         return true
     }
 

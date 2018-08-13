@@ -8,12 +8,6 @@
 
 import Foundation
 
-// To parse the JSON, add this file to your project and do:
-//
-//   let welcome = try? JSONDecoder().decode(Welcome.self, from: jsonData)
-
-import Foundation
-
 struct EbayProduct: Codable {
     let findItemsByKeywordsResponse: [FindItemsByKeywordsResponse]
 }
@@ -31,7 +25,7 @@ struct SearchResult: Codable {
 }
 
 struct EbayItem: Codable {
-    let itemID, title: [String]?
+    let itemID, title, globalID: [String]?
     let galleryURL, viewItemURL: [String]?
     let sellerInfo: [SellerInfo]?
     let sellingStatus: [SellingStatus]?
@@ -40,6 +34,7 @@ struct EbayItem: Codable {
     enum CodingKeys: String, CodingKey {
         case itemID = "itemId"
         case title
+        case globalID = "globalId"
         case galleryURL, viewItemURL, sellerInfo, sellingStatus, topRatedListing
     }
 }
@@ -49,7 +44,8 @@ struct SellerInfo: Codable {
 }
 
 struct SellingStatus: Codable {
-    let currentPrice, convertedCurrentPrice: [ConvertedCurrentPrice]?
+    let currentPrice: [ConvertedCurrentPrice]?
+    let convertedCurrentPrice: [ConvertedCurrentPrice]?
 }
 
 struct ConvertedCurrentPrice: Codable {
